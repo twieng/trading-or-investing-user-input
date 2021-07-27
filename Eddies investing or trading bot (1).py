@@ -1,6 +1,6 @@
 # IF USER IS TOO YOUNG TO PLAY, USER CANNOT PLAY
 Name = input("Name: ").upper()
-Age = int(input("Age: "))
+Age = float(input("Age: "))
 if Age >= 18 and Age < 100:
     print("you are old enough to play")
 
@@ -71,4 +71,3 @@ elif Age >= 100:
 elif Age <= 18:
     print("Sorry " + Name + ", you are too young to play")
     quit()
-
